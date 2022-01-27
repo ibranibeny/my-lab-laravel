@@ -17,7 +17,7 @@ RUN apt-get install -y --no-install-recommends --no-install-suggests supervisor 
 
 
 WORKDIR /var/www/html
-COPY sites2 .
+COPY sites .
 RUN chown -R www-data:www-data .
 
 WORKDIR /
