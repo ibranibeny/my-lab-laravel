@@ -11,7 +11,7 @@
         {
           "hostPort": 0,
           "protocol": "tcp",
-          "containerPort": 8000
+          "containerPort": 80
         }
       ],
       "command": null,
@@ -29,7 +29,7 @@
       "memoryReservation": 32,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "514458905536.dkr.ecr.ap-southeast-1.amazonaws.com/my-lab-laravel-ecr:f500aabef9d6bf85ec89f1c6c37d60446625c0ed",
+      "image": "514458905536.dkr.ecr.ap-southeast-1.amazonaws.com/my-lab-laravel-ecr:31a75d584aa8344d87b81b662a091a9a0245940b",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -56,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:514458905536:task-definition/my-lab-laravel-task-definition:8",
+  "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:514458905536:task-definition/my-lab-laravel-task-definition:10",
   "family": "my-lab-laravel-task-definition",
   "requiresAttributes": [
     {
@@ -79,7 +79,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 8,
+  "revision": 10,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
